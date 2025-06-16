@@ -1,0 +1,7 @@
+---
+# Ansible Galaxy Collections required for this execution environment
+
+collections:
+  - name: community.crypto
+    version: 2.0.0
+  - name: community.docker

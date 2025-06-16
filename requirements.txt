@@ -1,0 +1,5 @@
+# Python dependencies for Ansible Execution Environment
+
+# Core dependencies - don't remove these
+jmespath>=1.0.1
+vcert==0.18.0

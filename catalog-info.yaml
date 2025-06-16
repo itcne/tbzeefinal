@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tbzeefinal"
+  title: "tbzeefinal"
+  description: "this is a text execution environment"
+  annotations:
+    github.com/project-slug: "itcne/tbzeefinal"
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/itcne/sem05_devhub_templates/tree/main/ansible-ee-template
+  tags:
+    - ansible
+    - execution-environment
+    - container
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/teacher"
+  system: ansible-automation
